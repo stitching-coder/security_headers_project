@@ -15,10 +15,3 @@ class SecurityHeadersMiddleware:
         # --- End of header modifications ---
 
         return response
-
-# From ChatGPT
-# SECURE_CONTENT_TYPE_NOSNIFF = True
-# SECURE_BROWSER_XSS_FILTER = True
-# X_FRAME_OPTIONS = 'DENY'
-# CONTENT_SECURITY_POLICY = "default-src 'self'"
-# # Note: To set custom headers, you might add middleware or use `HttpResponse` headers
